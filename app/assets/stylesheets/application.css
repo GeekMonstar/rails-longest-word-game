@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+  font-family: "Hind Vadodara", sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1{
+}
+
+.letters{
+  display: flex;
+  gap: 5px;
+}
+
+.letter{
+  min-width: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 1px;
+  background: rgb(37, 88, 255);
+  color: #FFF;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.692);
+  cursor: pointer;
+}
+
+.letter:hover{
+  box-shadow: 0 0 10px rgba(37, 88, 255, 0.87);
+  outline: 1.5px solid #FFF;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
